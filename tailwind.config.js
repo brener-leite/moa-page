@@ -20,7 +20,7 @@ module.exports = {
         "neutral-dark-5": "#383838",
         "neutral-light-1": "#FFF",
         "neutral-light-2": "#E6E6E6",
-        "neutral-light-3": "##DCDCDC",
+        "neutral-light-3": "#DCDCDC",
       },
     },
     fontFamily: {

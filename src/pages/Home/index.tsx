@@ -5,26 +5,26 @@ import Menu from "components/Menu"
 import Features from "./sections/Features"
 import Hero from "./sections/Hero"
 import Roadmap from "./sections/Roadmap"
+import Footer from "components/Footer"
 
 function Home() {
   return (
-    <div className="bg-neutral-dark-3">
+    <div className="bg-neutral-dark-3" id="home-page">
       <Container>
-        <div className="mb-12">
-          <Menu.Container>
+        <Menu.Container>
+          <Menu.Link section="home-page">
             <Menu.Logo />
-            <Menu.LinkContainer>
-              <Menu.Link text="Hero" section="section-hero" />
-              <Menu.Link text="Features" section="section-features" />
-              <Menu.Link text="Roadmap" section="section-roadmap" />
-              <Menu.Link text="News" section="section-news" />
-            </Menu.LinkContainer>
-            <div>
-              <Button handleClick={() => console.log("click")}>Download</Button>
-            </div>
-          </Menu.Container>
-        </div>
-        <div className="mb-20">
+          </Menu.Link>
+          <Menu.LinkContainer>
+            <Menu.Link section="section-welcome">Welcome to moa</Menu.Link>
+            <Menu.Link section="section-features">Features</Menu.Link>
+            <Menu.Link section="section-roadmap">Roadmap</Menu.Link>
+          </Menu.LinkContainer>
+          <div>
+            <Button handleClick={() => console.log("click")}>Download</Button>
+          </div>
+        </Menu.Container>
+        <div className="mb-20 pt-[100px]">
           <div className="mb-8">
             <h2 className="text-center text-xxxl">
               <span className="text-pink-1">Earn money </span>with your{" "}
@@ -36,7 +36,7 @@ function Home() {
             <span className="text-lg text-pink-1">sit amet</span>
           </h3>
         </div>
-        <div className="relative mb-12">
+        <div className="relative">
           <img
             src="/assets/coin.png"
             alt="Moa coin"
@@ -68,15 +68,16 @@ function Home() {
             </div>
           </div>
         </div>
-        <section className="relative mb-20" id="section-hero">
+        <section className="pt-[72px] lg:mb-[30px]" id="section-welcome">
           <Hero />
         </section>
-        <section className="relative mb-20" id="section-features">
+        <section className="pt-[72px] lg:mb-[30px]" id="section-features">
           <Features />
         </section>
-        <section id="section-roadmap">
+        <section className="pt-[72px] lg:mb-[100px]" id="section-roadmap">
           <Roadmap />
         </section>
+        <Footer />
       </Container>
     </div>
   )

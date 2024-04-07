@@ -3,7 +3,7 @@ interface Props {
 }
 
 function MenuLinkContainer({ children }: Props) {
-  return <ul className="flex gap-x-6">{children}</ul>
+  return <div className="hidden lg:flex gap-x-6">{children}</div>
 }
 
 export default MenuLinkContainer

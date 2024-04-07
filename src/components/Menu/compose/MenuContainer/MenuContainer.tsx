@@ -4,7 +4,25 @@ interface Props {
 
 function MenuContainer({ children }: Props) {
   return (
-    <div className="w-full bg-neutral-dark-2 flex justify-between items-center px-4 py-4 rounded-2xl">
+    <div
+      className="
+        z-20
+        bg-neutral-dark-2 
+        flex 
+        justify-between 
+        items-center 
+        p-4
+        rounded-2xl 
+        backdrop-blur-lg
+        fixed
+        max-w-[1280px]
+        left-[20px]
+        right-[20px]
+        xl:left-[unset]
+        xl:right-[unset]
+        xl:w-full
+      "
+    >
       {children}
     </div>
   )

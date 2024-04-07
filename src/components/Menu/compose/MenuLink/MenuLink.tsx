@@ -1,20 +1,16 @@
 interface Props {
-  text: string
+  children: React.ReactNode
   section: string
 }
 
-function MenuLink({ text, section }: Props) {
+function MenuLink({ children, section }: Props) {
   const scrollIntoView = (id: string) => {
     const section = document.getElementById(id)
     if (section) {
       section.scrollIntoView({ behavior: "smooth" })
     }
   }
-  return (
-    <li>
-      <button onClick={() => scrollIntoView(section)}>{text}</button>
-    </li>
-  )
+  return <button onClick={() => scrollIntoView(section)}>{children}</button>
 }
 
 export default MenuLink
