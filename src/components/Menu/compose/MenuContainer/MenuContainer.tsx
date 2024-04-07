@@ -15,6 +15,7 @@ function MenuContainer({ children }: Props) {
         rounded-2xl 
         backdrop-blur-lg
         fixed
+        top-[10px]
         max-w-[1280px]
         left-[20px]
         right-[20px]
