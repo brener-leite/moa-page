@@ -17,8 +17,8 @@ function MenuContainer({ children }: Props) {
         fixed
         top-[10px]
         max-w-[1280px]
-        left-[20px]
-        right-[20px]
+        left-[15px]
+        right-[15px]
         xl:left-[unset]
         xl:right-[unset]
         xl:w-full

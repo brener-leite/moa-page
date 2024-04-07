@@ -3,7 +3,11 @@ interface Props {
 }
 
 function CardTitle({ children }: Props) {
-  return <h4 className="text-pink-1 text-xxxl font-medium">{children}</h4>
+  return (
+    <h4 className="text-neutral-light-1 text-xl lg:text-xxxl font-light lg:font-thin">
+      {children}
+    </h4>
+  )
 }
 
 export default CardTitle

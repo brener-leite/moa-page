@@ -3,7 +3,9 @@ interface Props {
 }
 
 function CardText({ children }: Props) {
-  return <p className="text-dm text-neutral-light-2 font-thin">{children}</p>
+  return (
+    <p className="text-dm text-neutral-light-2 font-extralight">{children}</p>
+  )
 }
 
 export default CardText

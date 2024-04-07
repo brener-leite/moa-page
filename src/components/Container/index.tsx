@@ -4,7 +4,7 @@ interface Props {
 
 function Container({ children }: Props) {
   return (
-    <div className="relative max-w-screen-xl mx-auto px-[15px] xl:px-0 w-full min-h-screen">
+    <div className="relative max-w-screen-xl mx-auto px-[15px] xl:px-0 w-full min-h-screen overflow-x-hidden">
       {children}
     </div>
   )

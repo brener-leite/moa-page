@@ -1,12 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  screens: {
-    sm: "320px",
-    md: "768px",
-    lg: "1024px",
-    xl: "1280px",
-  },
   theme: {
     extend: {
       colors: {
@@ -22,6 +16,12 @@ module.exports = {
         "neutral-light-2": "#E6E6E6",
         "neutral-light-3": "#DCDCDC",
       },
+    },
+    screens: {
+      sm: "320px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1281px",
     },
     fontFamily: {
       "primary-font": ["Inter", "sans-serif"],
