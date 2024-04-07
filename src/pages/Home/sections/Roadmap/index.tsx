@@ -12,6 +12,14 @@ function Roadmap() {
     speed: 500,
     slidesToShow: 1.2,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   }
 
   return (
@@ -20,75 +28,175 @@ function Roadmap() {
         <Section.Title>Roadmap</Section.Title>
       </div>
       <Slider {...settings}>
-        <Section.Row>
+        <Section.Row className="px-2">
           <img
-            src="/assets/banner-hero-3.png"
+            src="/assets/roadmap-marketplace.png"
             alt="Person running"
             loading="lazy"
+            className="!hidden lg:block"
+          />
+          <img
+            src="/assets/roadmap-marketplace-mobile.png"
+            alt="Person running"
+            loading="lazy"
+            className="block !lg:hidden"
           />
           <Card.Container>
             <Card.Light position="left" />
             <div className="mb-6">
-              <Card.Title>Daily Run</Card.Title>
+              <Card.Title>
+                <span className="text-pink-1 font-semibold">Daily Runs</span>
+              </Card.Title>
             </div>
             <Card.Text>
-              Lorem Lorem ipsum dolor ipsum dolor{" "}
-              <span className="text-pink-1">sit amet</span> Lorem ipsum dolor
-              sit amet consectetur. Esvul morbi sit vitae. Aet et a tempor
+              Enjoy daily runs to boost your workout routine. Already available
+              in the pre-alpha version of Moa, Daily Runs offer an opportunity
+              to earn rewards while you run.
             </Card.Text>
           </Card.Container>
         </Section.Row>
-        <Section.Row>
+        <Section.Row className="px-2">
           <img
-            src="/assets/banner-hero-3.png"
+            src="/assets/roadmap-marketplace.png"
             alt="Person running"
             loading="lazy"
+            className="!hidden lg:block"
+          />
+          <img
+            src="/assets/roadmap-marketplace-mobile.png"
+            alt="Person running"
+            loading="lazy"
+            className="block !lg:hidden"
           />
           <Card.Container>
             <Card.Light position="left" />
             <div className="mb-6">
-              <Card.Title>Daily Run</Card.Title>
+              <Card.Title>
+                <span className="text-pink-1 font-semibold">Challenges</span>
+              </Card.Title>
             </div>
             <Card.Text>
-              Lorem Lorem ipsum dolor ipsum dolor{" "}
-              <span className="text-pink-1">sit amet</span> Lorem ipsum dolor
-              sit amet consectetur. Esvul morbi sit vitae. Aet et a tempor
+              Challenge yourself with Moa's Challenges. While still in preview
+              stage in the pre-alpha version, these customized runs allow you to
+              create or participate in unique challenges and compete for
+              rewards.
             </Card.Text>
           </Card.Container>
         </Section.Row>
-        <Section.Row>
+        <Section.Row className="px-2">
           <img
-            src="/assets/banner-hero-3.png"
+            src="/assets/roadmap-marketplace.png"
             alt="Person running"
             loading="lazy"
+            className="!hidden lg:block"
+          />
+          <img
+            src="/assets/roadmap-marketplace-mobile.png"
+            alt="Person running"
+            loading="lazy"
+            className="block !lg:hidden"
           />
           <Card.Container>
             <Card.Light position="left" />
             <div className="mb-6">
-              <Card.Title>Daily Run</Card.Title>
+              <Card.Title>
+                <span className="text-pink-1 font-semibold">Global Events</span>
+              </Card.Title>
             </div>
             <Card.Text>
-              Lorem Lorem ipsum dolor ipsum dolor{" "}
-              <span className="text-pink-1">sit amet</span> Lorem ipsum dolor
-              sit amet consectetur. Esvul morbi sit vitae. Aet et a tempor
+              Get ready for thrilling competitions on a global scale with Moa's
+              Global Events. This feature will be available in future updates,
+              providing the opportunity to compete with runners from around the
+              world.
             </Card.Text>
           </Card.Container>
         </Section.Row>
-        <Section.Row>
+        <Section.Row className="px-2">
           <img
-            src="/assets/banner-hero-3.png"
+            src="/assets/roadmap-marketplace.png"
             alt="Person running"
             loading="lazy"
+            className="!hidden lg:block"
+          />
+          <img
+            src="/assets/roadmap-marketplace-mobile.png"
+            alt="Person running"
+            loading="lazy"
+            className="block !lg:hidden"
           />
           <Card.Container>
             <Card.Light position="left" />
             <div className="mb-6">
-              <Card.Title>Daily Run</Card.Title>
+              <Card.Title>
+                <span className="text-pink-1 font-semibold">
+                  NFT Marketplace
+                </span>
+              </Card.Title>
             </div>
             <Card.Text>
-              Lorem Lorem ipsum dolor ipsum dolor{" "}
-              <span className="text-pink-1">sit amet</span> Lorem ipsum dolor
-              sit amet consectetur. Esvul morbi sit vitae. Aet et a tempor
+              Explore a world of collectible digital assets with Moa's NFT
+              Marketplace. This feature will be launched soon, allowing users to
+              buy and sell unique NFTs directly within the app.
+            </Card.Text>
+          </Card.Container>
+        </Section.Row>
+        <Section.Row className="px-2">
+          <img
+            src="/assets/roadmap-marketplace.png"
+            alt="Person running"
+            loading="lazy"
+            className="!hidden lg:block"
+          />
+          <img
+            src="/assets/roadmap-marketplace-mobile.png"
+            alt="Person running"
+            loading="lazy"
+            className="block !lg:hidden"
+          />
+          <Card.Container>
+            <Card.Light position="left" />
+            <div className="mb-6">
+              <Card.Title>
+                <span className="text-pink-1 font-semibold">
+                  Community Clubs
+                </span>
+              </Card.Title>
+            </div>
+            <Card.Text>
+              Connect with fellow runners and join vibrant communities with
+              Moa's Community Clubs. Stay tuned for future updates, where you'll
+              be able to join thematic groups and share your passion for
+              running.
+            </Card.Text>
+          </Card.Container>
+        </Section.Row>
+        <Section.Row className="px-2">
+          <img
+            src="/assets/roadmap-marketplace.png"
+            alt="Person running"
+            loading="lazy"
+            className="!hidden lg:block"
+          />
+          <img
+            src="/assets/roadmap-marketplace-mobile.png"
+            alt="Person running"
+            loading="lazy"
+            className="block !lg:hidden"
+          />
+          <Card.Container>
+            <Card.Light position="left" />
+            <div className="mb-6">
+              <Card.Title>
+                <span className="text-pink-1 font-semibold">
+                  Souvenir Store
+                </span>
+              </Card.Title>
+            </div>
+            <Card.Text>
+              Find exclusive products to take your running experience to the
+              next level with Moa's Souvenir Store. Soon, users will be able to
+              purchase shirts, hats, and other Moa-related items to show their
+              support for the community.
             </Card.Text>
           </Card.Container>
         </Section.Row>
