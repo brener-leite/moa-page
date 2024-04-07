@@ -33,13 +33,13 @@ function Roadmap() {
             src="/assets/roadmap-marketplace.png"
             alt="Person running"
             loading="lazy"
-            className="!hidden lg:block"
+            className="slide-image-desktop"
           />
           <img
             src="/assets/roadmap-marketplace-mobile.png"
             alt="Person running"
             loading="lazy"
-            className="block !lg:hidden"
+            className="slide-image-mobile"
           />
           <Card.Container>
             <Card.Light position="left" />
@@ -60,13 +60,13 @@ function Roadmap() {
             src="/assets/roadmap-marketplace.png"
             alt="Person running"
             loading="lazy"
-            className="!hidden lg:block"
+            className="slide-image-desktop"
           />
           <img
             src="/assets/roadmap-marketplace-mobile.png"
             alt="Person running"
             loading="lazy"
-            className="block !lg:hidden"
+            className="slide-image-mobile"
           />
           <Card.Container>
             <Card.Light position="left" />
@@ -88,13 +88,13 @@ function Roadmap() {
             src="/assets/roadmap-marketplace.png"
             alt="Person running"
             loading="lazy"
-            className="!hidden lg:block"
+            className="slide-image-desktop"
           />
           <img
             src="/assets/roadmap-marketplace-mobile.png"
             alt="Person running"
             loading="lazy"
-            className="block !lg:hidden"
+            className="slide-image-mobile"
           />
           <Card.Container>
             <Card.Light position="left" />
@@ -116,13 +116,13 @@ function Roadmap() {
             src="/assets/roadmap-marketplace.png"
             alt="Person running"
             loading="lazy"
-            className="!hidden lg:block"
+            className="slide-image-desktop"
           />
           <img
             src="/assets/roadmap-marketplace-mobile.png"
             alt="Person running"
             loading="lazy"
-            className="block !lg:hidden"
+            className="slide-image-mobile"
           />
           <Card.Container>
             <Card.Light position="left" />
@@ -145,13 +145,13 @@ function Roadmap() {
             src="/assets/roadmap-marketplace.png"
             alt="Person running"
             loading="lazy"
-            className="!hidden lg:block"
+            className="slide-image-desktop"
           />
           <img
             src="/assets/roadmap-marketplace-mobile.png"
             alt="Person running"
             loading="lazy"
-            className="block !lg:hidden"
+            className="slide-image-mobile"
           />
           <Card.Container>
             <Card.Light position="left" />
@@ -175,13 +175,13 @@ function Roadmap() {
             src="/assets/roadmap-marketplace.png"
             alt="Person running"
             loading="lazy"
-            className="!hidden lg:block"
+            className="slide-image-desktop"
           />
           <img
             src="/assets/roadmap-marketplace-mobile.png"
             alt="Person running"
             loading="lazy"
-            className="block !lg:hidden"
+            className="slide-image-mobile"
           />
           <Card.Container>
             <Card.Light position="left" />

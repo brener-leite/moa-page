@@ -48,3 +48,21 @@
 .slick-disabled {
   opacity: 0.4;
 }
+
+.slick-slide img.slide-image-desktop {
+  display: none;
+}
+
+.slick-slide img.slide-image-mobile {
+  display: block;
+}
+
+@media only screen and (min-width: 1024px) {
+  .slick-slide img.slide-image-desktop {
+    display: block;
+  }
+
+  .slick-slide img.slide-image-mobile {
+    display: none;
+  }
+}
