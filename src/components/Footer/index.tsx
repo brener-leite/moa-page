@@ -12,8 +12,10 @@ function Footer() {
               />
             </div>
             <p className="text-neutral-light-3 text-sm lg:text-xl">
-              Lorem ipsum dolor sitonsec teturadipisicing elit sed do eiusmod
-              temporincididunt Laoreet non sagittis aliquam bibendum.
+              Join Moa, the ultimate platform for runners worldwide. Experience
+              the thrill of competition, connect with fellow enthusiasts, and
+              earn rewards as you conquer the streets. Lace up your shoes and
+              join the Moa community today!
             </p>
           </div>
           <div className="flex flex-col lg:flex-1">
@@ -23,12 +25,32 @@ function Footer() {
             <div className="flex gap-[8px] lg:gap-[14px]">
               <a
                 href="https://twitter.com/moa_app"
-                className="bg-neutral-dark-3 rounded-[16px] p-[20px]"
+                className="bg-neutral-dark-3 rounded-[16px] w-[70px] h-[70px] flex justify-center align-center"
               >
                 <img
                   src="/assets/icon-twitter.svg"
                   alt="Twitter"
                   className="w-[30px]"
+                />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCxXtF8zVxmKNYHXDXkpKxCw"
+                className="bg-neutral-dark-3 rounded-[16px] w-[70px] h-[70px] flex justify-center align-center"
+              >
+                <img
+                  src="/assets/icon-youtube.svg"
+                  alt="YouTube"
+                  className="w-[40px]"
+                />
+              </a>
+              <a
+                href="mailto:moa.solana@gmail.com"
+                className="bg-neutral-dark-3 rounded-[16px] w-[70px] h-[70px] flex justify-center align-center"
+              >
+                <img
+                  src="/assets/icon-email.svg"
+                  alt="Twitter"
+                  className="w-[40px]"
                 />
               </a>
             </div>
