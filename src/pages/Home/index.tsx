@@ -24,12 +24,14 @@ function Home() {
         </Menu.Container>
         <div className="mb-20 pt-[100px]">
           <div className="mb-[24px] lg:mb-[40px]">
-            <h2 className="text-start lg:text-center text-[32px] lg:text-xxxl">
-              <span className="text-pink-1">Earn money </span>with your{" "}
-              <span className="text-pink-1">street running </span>workouts
+            <h2 className="text-start lg:text-center text-[32px] lg:text-xxxl font-light">
+              <span className="text-pink-1 font-semibold">Earn money </span>with
+              your{" "}
+              <span className="text-pink-1 font-semibold">street running </span>
+              workouts
             </h2>
           </div>
-          <h3 className="text-start lg:text-center text-md font-extralight">
+          <h3 className="text-start lg:text-center text-md font-light">
             Run with{" "}
             <span className="text-lg text-pink-1 font-semibold">anyone</span> on
             the planet
