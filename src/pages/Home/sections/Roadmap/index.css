@@ -1,0 +1,32 @@
+.slick-slide:not(:last-of-type) {
+  padding-right: 20px;
+}
+
+.slick-arrow {
+  background: #e50d4c !important;
+  padding: 16px;
+  border-radius: 8px 0 8px 0;
+  top: -40px;
+  right: 0;
+  left: unset;
+}
+
+.slick-prev {
+  right: 40px;
+}
+
+.slick-arrow::before {
+  display: none;
+}
+
+.slick-next::after {
+  position: absolute;
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url("../../../../../public/assets/icon-arrow-right.svg");
+}
+
+.slick-disabled {
+  opacity: 0.4;
+}

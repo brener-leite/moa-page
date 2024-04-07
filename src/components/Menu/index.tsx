@@ -1,35 +1,13 @@
-interface ISection {
-  link: string
-  label: string
-}
+import MenuContainer from "./compose/MenuContainer/MenuContainer"
+import MenuLink from "./compose/MenuLink/MenuLink"
+import MenuLinkContainer from "./compose/MenuLinkContainer/MenuLinkContainer"
+import MenuLogo from "./compose/MenuLogo/MenuLogo"
 
-interface Props {
-  sections: ISection[]
-}
-
-function Menu({ sections }: Props) {
-  const scrollIntoView = (id: string) => {
-    const section = document.getElementById(id)
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" })
-    }
-  }
-
-  return (
-    <menu className="flex py-20">
-      {sections.map(({ link, label }) => (
-        <li className="mr-10 last:mr-0">
-          <button
-            onClick={() => {
-              scrollIntoView(link)
-            }}
-          >
-            {label}
-          </button>
-        </li>
-      ))}
-    </menu>
-  )
+const Menu = {
+  Container: MenuContainer,
+  Link: MenuLink,
+  LinkContainer: MenuLinkContainer,
+  Logo: MenuLogo,
 }
 
 export default Menu
