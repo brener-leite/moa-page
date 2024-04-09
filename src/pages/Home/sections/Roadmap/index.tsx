@@ -3,23 +3,14 @@ import "slick-carousel/slick/slick-theme.css"
 import Slider from "react-slick"
 import Card from "components/Card"
 import Section from "components/Section"
-import "./index.css"
 
 function Roadmap() {
   const settings = {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: 1.2,
+    slidesToShow: 1,
     slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
   }
 
   return (

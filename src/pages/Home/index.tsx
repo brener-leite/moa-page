@@ -6,6 +6,8 @@ import Features from "./sections/Features"
 import Welcome from "./sections/Welcome"
 import Roadmap from "./sections/Roadmap"
 import Footer from "components/Footer"
+import Team from "./sections/Team"
+import "./index.css"
 
 function Home() {
   return (
@@ -19,6 +21,7 @@ function Home() {
             <Menu.Link section="section-welcome">Welcome to moa</Menu.Link>
             <Menu.Link section="section-features">Features</Menu.Link>
             <Menu.Link section="section-roadmap">Roadmap</Menu.Link>
+            <Menu.Link section="section-team">Our team</Menu.Link>
           </Menu.LinkContainer>
           <DownloadButton>Download</DownloadButton>
         </Menu.Container>
@@ -44,11 +47,14 @@ function Home() {
         <section className="pt-[82px] lg:mb-[30px]" id="section-features">
           <Features />
         </section>
+        <section className="pt-[82px] lg:mb-[30px]" id="section-roadmap">
+          <Roadmap />
+        </section>
         <section
           className="pt-[82px] mb-[40px] lg:mb-[100px]"
-          id="section-roadmap"
+          id="section-team"
         >
-          <Roadmap />
+          <Team />
         </section>
         <Footer />
       </Container>
