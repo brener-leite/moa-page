@@ -18,10 +18,12 @@ module.exports = {
       },
     },
     screens: {
-      sm: "320px",
+      xs: "320px",
+      sm: "425px",
       md: "768px",
       lg: "1024px",
       xl: "1281px",
+      "xl-custom": "1280px",
     },
     fontFamily: {
       "primary-font": ["Inter", "sans-serif"],

@@ -16,7 +16,7 @@ function Roadmap() {
   return (
     <Section.Container>
       <div className="mb-6">
-        <Section.Title>Roadmap</Section.Title>
+        <Section.Title>Coming Next</Section.Title>
       </div>
       <Slider {...settings}>
         <Section.Row className="px-2">

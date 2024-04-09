@@ -7,11 +7,26 @@ import Welcome from "./sections/Welcome"
 import Roadmap from "./sections/Roadmap"
 import Footer from "components/Footer"
 import Team from "./sections/Team"
+import ModalVideo from "react-modal-video"
+
+import { useState } from "react"
+
 import "./index.css"
+import "react-modal-video/scss/modal-video.scss"
+import Building from "./sections/Building"
 
 function Home() {
+  const [videoOpen, setVideoOpen] = useState(false)
+
   return (
     <div className="bg-neutral-dark-3" id="home-page">
+      <ModalVideo
+        channel="youtube"
+        youtube={{ mute: 0, autoplay: 1 }}
+        isOpen={videoOpen}
+        videoId="XTFkkLc4_MM"
+        onClose={() => setVideoOpen(false)}
+      />
       <Container>
         <Menu.Container>
           <Menu.Link section="home-page">
@@ -34,18 +49,16 @@ function Home() {
               workouts
             </h2>
           </div>
-          <h3 className="text-start lg:text-center text-md font-light">
-            Run with{" "}
-            <span className="text-lg text-pink-1 font-semibold">anyone</span> on
-            the planet
-          </h3>
         </div>
-        <Banner />
+        <Banner openVideo={() => setVideoOpen(true)} />
         <section className="lg:pt-[82px] lg:mb-[30px]" id="section-welcome">
           <Welcome />
         </section>
         <section className="pt-[82px] lg:mb-[30px]" id="section-features">
           <Features />
+        </section>
+        <section className="pt-[82px] lg:mb-[30px]" id="section-features">
+          <Building />
         </section>
         <section className="pt-[82px] lg:mb-[30px]" id="section-roadmap">
           <Roadmap />
