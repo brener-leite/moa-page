@@ -24,7 +24,7 @@ function Home() {
         channel="youtube"
         youtube={{ mute: 0, autoplay: 1 }}
         isOpen={videoOpen}
-        videoId="d33CdZDrqmw"
+        videoId="5dJXbDgYQ5w"
         onClose={() => setVideoOpen(false)}
       />
       <Container>
