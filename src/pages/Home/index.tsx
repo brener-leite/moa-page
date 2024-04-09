@@ -24,7 +24,7 @@ function Home() {
         channel="youtube"
         youtube={{ mute: 0, autoplay: 1 }}
         isOpen={videoOpen}
-        videoId="XTFkkLc4_MM"
+        videoId="d33CdZDrqmw"
         onClose={() => setVideoOpen(false)}
       />
       <Container>
@@ -35,7 +35,8 @@ function Home() {
           <Menu.LinkContainer>
             <Menu.Link section="section-welcome">Welcome to moa</Menu.Link>
             <Menu.Link section="section-features">Features</Menu.Link>
-            <Menu.Link section="section-roadmap">Roadmap</Menu.Link>
+            <Menu.Link section="section-building">In progress</Menu.Link>
+            <Menu.Link section="section-roadmap">Coming next</Menu.Link>
             <Menu.Link section="section-team">Our team</Menu.Link>
           </Menu.LinkContainer>
           <DownloadButton>Download</DownloadButton>
@@ -57,7 +58,7 @@ function Home() {
         <section className="pt-[82px] lg:mb-[30px]" id="section-features">
           <Features />
         </section>
-        <section className="pt-[82px] lg:mb-[30px]" id="section-features">
+        <section className="pt-[82px] lg:mb-[30px]" id="section-building">
           <Building />
         </section>
         <section className="pt-[82px] lg:mb-[30px]" id="section-roadmap">

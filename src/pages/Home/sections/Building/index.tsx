@@ -5,7 +5,7 @@ function Building() {
   return (
     <Section.Container>
       <div className="mb-6">
-        <Section.Title>Under Construction</Section.Title>
+        <Section.Title>In Progress</Section.Title>
       </div>
       <Section.Row>
         <Card.Container>
