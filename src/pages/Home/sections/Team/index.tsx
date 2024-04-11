@@ -56,7 +56,7 @@ function Team() {
         <Slider {...settings}>
           <EmployeeCard
             name="Andrey Luz"
-            position="Product Design"
+            position="Product Designer"
             src="/assets/dedey-card.png"
             link="https://www.linkedin.com/in/andrey-l-6ba7bba8/"
           />
