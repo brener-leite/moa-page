@@ -42,8 +42,8 @@ function Welcome() {
           <Card.Light position="right" />
           <div className="mb-6">
             <Card.Title>
-              Earn <span className="text-pink-1 font-semibold">Rewards</span> as
-              You Run
+              Earn <span className="text-pink-1 font-semibold">Rewards</span> on
+              Solana as You Run
             </Card.Title>
           </div>
           <Card.Text>

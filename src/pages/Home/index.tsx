@@ -47,7 +47,7 @@ function Home() {
               <span className="text-pink-1 font-semibold">Earn money </span>with
               your{" "}
               <span className="text-pink-1 font-semibold">street running </span>
-              workouts
+              workouts on Solana
             </h2>
           </div>
         </div>
